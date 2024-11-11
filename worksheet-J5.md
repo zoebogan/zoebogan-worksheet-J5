@@ -45,5 +45,6 @@
     }
     ```
    
-   6. Lambda expressions only work if there is a single method to implement. So ```ActionListener``` can implement it because it is only using a single method.  
+6. Lambda expressions only work if there is a single method to implement. So ```ActionListener``` can implement Lambda expressions because it is only using a single method.  
 
+7. # finish code!
