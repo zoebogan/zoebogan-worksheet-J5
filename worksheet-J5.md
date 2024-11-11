@@ -27,20 +27,20 @@
           this.add(panel, BorderLayout.SOUTH);
 
           red.addActionListener((e) -> {
-                    if (l.getText().equals("RED")) {
-                        l.setText("BLUE");
-                    }else {
-                        l.setText("RED");
-                    }
-                });
+                if (l.getText().equals("RED")) {
+                    l.setText("BLUE");
+                } else {
+                    l.setText("RED");
+                }
+            });
 
           blue.addActionListener((e) -> {
-                    if (l.getText().equals("BLUE")) {
-                        l.setText("RED");
-                    }else {
-                        l.setText("BLUE");
-                    }
-          });
+                if (l.getText().equals("BLUE")) {
+                    l.setText("RED");
+                } else {
+                    l.setText("BLUE");
+                }
+           });
         }
     }
     ```
